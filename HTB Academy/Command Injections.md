@@ -21,11 +21,11 @@ Initial thoughts upon reading the description
 
 Upon authenticating to the target with user "guest" and password "guest", the file manager application has a simple interface with various notables
 - A search bar
-- An empty folder ```tmp``` with several placeholder .txt files
-- 4 actions available for the .txt files, ```Preview```, ```Copy To...```, ```Direct Link```, ```Download```
+- An empty folder ```tmp``` with several placeholder ```.txt``` files
+- 4 actions available for the ```.txt``` files, ```Preview```, ```Copy To...```, ```Direct Link```, ```Download```
 <img width="1269" height="790" alt="image" src="https://github.com/user-attachments/assets/02c7d653-4c25-46bb-b50f-a8c46f474786" />
 
-After exploring the target and the functions available (clicked around on everything), the most noteworthy was the ```Copy To...``` function availabe for the .txt files, especially the "move" function
+After exploring the target and the functions available (clicked around on everything), the most noteworthy was the ```Copy To...``` function availabe for the .txt files, especially the ```move``` function
 
 <img width="1060" height="300" alt="image" src="https://github.com/user-attachments/assets/a86de839-8416-4127-ba86-cb3a71712d39" />
 
