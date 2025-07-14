@@ -11,6 +11,7 @@ Use the various techniques presented in this module to detect a command injectio
 
 Authenticate with user "guest" and password "guest"
 
+Question:
 What is the content of '/flag.txt'?
 
 Hints:
