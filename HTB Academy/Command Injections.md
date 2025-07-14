@@ -1,6 +1,6 @@
 # Command Injection Skills Assessment
-1. [Description](https://github.com/zyunrong/Writeups/edit/main/HTB%20Academy/Command%20Injections.md#description)
-2. [Walkthrough](https://github.com/zyunrong/Writeups/edit/main/HTB%20Academy/Command%20Injections.md#walkthrough)
+1. [Description](https://github.com/zyunrong/Writeups/main/HTB%20Academy/Command%20Injections.md#description)
+2. [Walkthrough](https://github.com/zyunrong/Writeups/main/HTB%20Academy/Command%20Injections.md#walkthrough)
 
 
 ## Description
