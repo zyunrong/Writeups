@@ -1,4 +1,7 @@
 # Command Injection Skills Assessment
+1. [Description](https://github.com/zyunrong/Writeups/edit/main/HTB%20Academy/Command%20Injections.md#description)
+2. [Walkthrough](https://github.com/zyunrong/Writeups/edit/main/HTB%20Academy/Command%20Injections.md#walkthrough)
+
 
 ## Description
 ```
@@ -25,7 +28,7 @@ Upon authenticating to the target with user "guest" and password "guest", the fi
 - 4 actions available for the ```.txt``` files, ```Preview```, ```Copy To...```, ```Direct Link```, ```Download```
 <img width="1269" height="790" alt="image" src="https://github.com/user-attachments/assets/02c7d653-4c25-46bb-b50f-a8c46f474786" />
 
-After exploring the target and the functions available (clicked around on everything), the most noteworthy was the ```Copy To...``` function availabe for the .txt files, especially the ```move``` function
+After exploring the target and the functions available, the most noteworthy was the ```Copy To...``` function availabe for the .txt files, especially the ```move``` function
 
 <img width="1060" height="300" alt="image" src="https://github.com/user-attachments/assets/a86de839-8416-4127-ba86-cb3a71712d39" />
 
@@ -41,28 +44,32 @@ To verify this, I tried to replicate the error and noticed that the error messag
 
 The command has a format ```mv [SOURCE] [DEST]```, and as such, if we can figure out a way to manipulate the source and destination input, we can exploit it to execute system commands that we want
 
-I noticed that when I selected the folder ```tmp``` to move the file to, the URL seemingly changed
+I noticed that when I selected the folder ```tmp``` to move the file to, the URL seemingly changed.
 This suggests to me that the input can potentially be manipulated through the query field in the GET request
 
 <img width="367" height="30" alt="image" src="https://github.com/user-attachments/assets/a205a2ba-6450-44d0-ad32-e2229badd04a" />
-
+</br>
 <img width="392" height="34" alt="image" src="https://github.com/user-attachments/assets/b2604a71-8b96-4fc9-939e-d8a52a70fbcd" />
+
+The hint provided suggests to inject our command in an input going at the end of the command, and hence I will modify the ```[DEST]``` 
 
 To test it out, I captured the request in Burp Suite and sent it to Repeater with the following adjustments
 <img width="524" height="25" alt="image" src="https://github.com/user-attachments/assets/cbf485ef-7d08-4bc6-b81b-7312e5515776" />
 
 I modified the destination input to ```;ls``` to attempt to execute the ```ls``` command as the overall system command executed would be ```mv [SOURCE] ;ls```
 
+<img width="595" height="149" alt="image" src="https://github.com/user-attachments/assets/7b307bb8-3dd6-41fc-8481-de386a2b578a" />
+
 The response suggests that this is the right direction, but there might be blacklisted characters and/or commands that we have to bypass for it to work
 
-<img width="595" height="149" alt="image" src="https://github.com/user-attachments/assets/7b307bb8-3dd6-41fc-8481-de386a2b578a" />
+First, I encode the command I want to execute in base64 encoding, ```cat /flag.txt``` to read the contents of the file /flag.txt
+<img width="423" height="51" alt="image" src="https://github.com/user-attachments/assets/e9600cb9-2b1d-4703-b501-3294714277df" />
+
+Next, I choose the payload ```bash<<<$({base64,-d}<<<[Encoded Command])``` to be able to bypass the filtered characters and commands
 
 <img width="584" height="43" alt="image" src="https://github.com/user-attachments/assets/2e5e6ff7-ca53-4502-9445-5b52fcce7499" />
 
-<img width="423" height="51" alt="image" src="https://github.com/user-attachments/assets/e9600cb9-2b1d-4703-b501-3294714277df" />
+Lastly, we send the request and see that our command has been executed, giving us the flag
 
-
-<img width="596" height="162" alt="Screenshot 2025-07-13 232250" src="https://github.com/user-attachments/assets/dc40b625-9f85-4654-a1f9-b0e98c7e2541" />
-
-
+<img width="596" height="162" alt="Screenshot 2025-07-13 232250" src="https://github.com/user-attachments/assets/8b769ab9-daef-46d1-906d-4a50fbc85074" />
 
