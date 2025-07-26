@@ -1,4 +1,6 @@
 # SQL Injection Fundamentals Skills Assessment
+1. [Description](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/SQL%20Injection%20Fundamentals.md#description)
+2. [Walkthrough](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/SQL%20Injection%20Fundamentals.md#walkthrough)
 
 ## Description
 The company Inlanefreight has contracted you to perform a web application assessment against one of their public-facing websites. In light of a recent breach of one of their main competitors, they are particularly concerned with SQL injection vulnerabilities and the damage the discovery and successful exploitation of this attack could do to their public image and bottom line.
