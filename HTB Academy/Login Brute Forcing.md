@@ -50,3 +50,21 @@ The `Password` is the flag for the first question
 Upon using the above credentials to login to the website, we are given our second flag, and the username required for the next part of the skills assessment
 
 <img width="1255" height="581" alt="Screenshot 2025-07-28 184150" src="https://github.com/user-attachments/assets/c794d151-62ba-4ce4-9f5c-9a861fe19b07" />
+
+## Disclaimer
+```
+Complete Part 1 before going to Part 2 as Part 2 has spoilers for the flag for Part 1
+```
+
+## Skills Assessment Part 2 Description
+```
+This is the second part of the skills assessment. YOU NEED TO COMPLETE THE FIRST PART BEFORE STARTING THIS. Use the username you were given when you completed part 1 of the skills assessment to brute force the login on the target instance.
+
+Question 1:
+What is the username of the ftp user you find via brute-forcing?
+
+Question 2:
+What is the flag contained within flag.txt 
+```
+
+## Skills Assessment Part 2 Walkthrough
