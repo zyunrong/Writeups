@@ -1,4 +1,8 @@
 # Login Brute Forcing Skills Assessment
+1. [Skills Assessment Part 1 Description](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Login%20Brute%20Forcing.md#skills-assessment-part-1-description)
+2. [Skills Assessment Part 1 Walkthrough](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Login%20Brute%20Forcing.md#skills-assessment-part-1-walkthrough)
+3. [Skills Assessment Part 2 Description](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Login%20Brute%20Forcing.md#skills-assessment-part-2-description)
+4. [Skills Assessment Part 2 Walkthrough](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Login%20Brute%20Forcing.md#skills-assessment-part-2-walkthrough)
 
 ## Skills Assessment Part 1 Description
 ```
