@@ -12,3 +12,4 @@ I used HTB Academy's web based Pwnbox (Parrot Linux) to complete the labs in the
 1. [Command Injections](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Command%20Injections.md)
 2. [SQL Injection Fundamentals](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/SQL%20Injection%20Fundamentals.md)
 3. [Login Brute Forcing](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/Login%20Brute%20Forcing.md)
+4. [File Upload Attacks](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/File%20Upload%20Attacks.md)
