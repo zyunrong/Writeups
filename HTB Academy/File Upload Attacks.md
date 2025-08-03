@@ -1,4 +1,6 @@
-<img width="1745" height="778" alt="Screenshot 2025-08-01 164011" src="https://github.com/user-attachments/assets/c7ab02aa-b01c-4412-97df-5877fc665b1c" /># File Upload Attacks Skills Assessment
+# File Upload Attacks Skills Assessment
+1. [Description](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/File%20Upload%20Attacks.md#description)
+2. [Walkthrough](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/File%20Upload%20Attacks.md#walkthrough)
 
 # Description
 ```
