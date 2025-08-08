@@ -56,6 +56,6 @@ Now, we just need to create our `jwt token` with the relevant information from t
 
 <img width="2101" height="1331" alt="Screenshot 2025-08-08 150604" src="https://github.com/user-attachments/assets/f029f54f-b729-4aae-b6d5-e9079a3549fb" />
 
-Finally, we can submit and verify our `jwt token` to receive our flag for `Challenge 3`
+Finally, we can submit and verify our `jwt token` to receive our flag for `Challenge 3` and unlock `Challenge 4`
 
 <img width="1539" height="1125" alt="Screenshot 2025-08-08 150629" src="https://github.com/user-attachments/assets/02f3a6f1-4455-4033-88e0-9bcdb5d4e665" />
