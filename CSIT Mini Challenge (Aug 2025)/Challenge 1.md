@@ -2,7 +2,7 @@
 
 ## Challenge Instructions
 ```
-he control platform was just the beginning — this shadowy group has its sights set on far bigger targets.
+The control platform was just the beginning — this shadowy group has its sights set on far bigger targets.
 Intelligence indicates their true objective is to infiltrate our transport infrastructure.
 Your first entry point: the control platform's development environment. Dig through the wreckage, recover the broken pipelines, and uncover clues to their next target!
 ```
