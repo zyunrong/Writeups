@@ -2,7 +2,7 @@
 1. [Description](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/File%20Upload%20Attacks.md#description)
 2. [Walkthrough](https://github.com/zyunrong/Writeups/blob/main/HTB%20Academy/File%20Upload%20Attacks.md#walkthrough)
 
-# Description
+## Description
 ```
 You are contracted to perform a penetration test for a company's e-commerce web application. The web application is in its early stages, so you will only be testing any file upload forms you can find.
 
